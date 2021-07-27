@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tableau component
+  name: test-dashboard
   title: Test Tableau Dashboard
-  description: Tableau Component
+  description: Dashboard Lookup Thing
   tags:
     - java
     - data
@@ -33,5 +33,5 @@ spec:
   type: visualization
   lifecycle: experimental
   owner: vraju
-  system: tableau-portal
+  system: artist-engagement-portal
   dependsOn: ['resource:artists-db']
